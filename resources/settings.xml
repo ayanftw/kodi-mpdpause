@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <!-- General -->
+  <category label="MPD">
+    <setting id="mpd_host" type="text" label="Hostname" default="localhost" />
+    <setting id="mpd_port" type="number" label="Port" default="6600" />
+
+    <setting id="mpd_pass" type="text" option="hidden" label="Password" default="" />
+  </category>
+</settings>
